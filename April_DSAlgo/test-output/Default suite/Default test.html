@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 12 13:20:46 CDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61194 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check mismatch Password confirmation message", "Check Register functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Types of Tree", "checking Tree page functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user navigate to Array page", "Unknown"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Terminologies", "checking Tree page functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on tryeditor page", "check Stack Functionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user checking TextArea", "checking Tree page functionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user checking operation functionality", "check Queue fuctionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is directed to Stack Page", "check Stack Functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user redirected to Homepage with valid details", "Check Register functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Overview of Trees", "checking Tree page functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is to sign out from DSalgo", "user is checking Graph functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Data Structure introduction page", "validating data structue page"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user navigate to Practice question", "Unknown"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on tryeditor of Graph representation page", "user is checking Graph functionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user checking try editor functionality of Graph representation", "user is checking Graph functionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check all empty field message", "Check Register functionality"</td>
+<td></td>
+<td>3</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check invalid Password", "Check Register functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user run the code in tryEditor with valid input for Introduction page", "Unknown"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user checking operation functionality", "check Stack Functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user checking try editor functionality", "user is checking Graph functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check invalid Username", "Check Register functionality"</td>
+<td></td>
+<td>8</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to linked list page", "Unknown"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user checking TextArea Terminologies", "checking Tree page functionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user starts dsalgo site", "Get started page"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user logins with correct credentials", "validating signin page"</td>
+<td></td>
+<td>2</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on tryeditor of Graph page", "user is checking Graph functionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check Queue fuctionality", "check Queue fuctionality"</td>
+<td></td>
+<td>2</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User to check Creating Linked List page", "Unknown"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Time Complexity page", "validating data structue page"</td>
+<td></td>
+<td>3</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user run the code in tryEditor with valid input for Creating Linked List page", "Unknown"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User navigated to Introduction page", "Unknown"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user navigate to Tree page", "checking Tree page functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user checking TextArea Types of Tree", "checking Tree page functionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Arrays in Python page", "Unknown"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is to check Graph operation", "user is checking Graph functionality"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+<tr>
+<td title='TestRunner.testRunner$TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunner$TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is on tryeditor page of Queue", "check Queue fuctionality"</td>
+<td></td>
+<td>1</td>
+<td>TestRunner.testRunner$TestRunner@248e319b</td></tr>
+</table><p>
+</body>
+</html>
