@@ -9,7 +9,8 @@ public class testRunner {
 	//@RunWith(Cucumber.class) //Junit execution
 
 	@CucumberOptions(
-			plugin = {"pretty", "html:target/DSALgo.html"}, //reporting purpose
+			plugin = {"pretty", "html:target/DSALgo.html",
+					"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}, //reporting purpose
 			//plugin = {"pretty", "html:target/SignIn1.html"}, //reporting purpose
 			//plugin = {"pretty", "html:target/Register1.html"}, //reporting purpose
 			monochrome=false,  //console output color
