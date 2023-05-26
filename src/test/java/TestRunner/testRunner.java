@@ -2,7 +2,9 @@ package TestRunner;
 
 //import org.testng.annotations.DataProvider;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.testng.CucumberOptions;
+//import io.cucumber.testng.CucumberOptions;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 
 public class testRunner {
 	
@@ -10,7 +12,9 @@ public class testRunner {
 
 	@CucumberOptions(
 			plugin = {"pretty", "html:target/DSALgo.html",
-					"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}, //reporting purpose
+					"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+					}, //reporting purpose
 			//plugin = {"pretty", "html:target/SignIn1.html"}, //reporting purpose
 			//plugin = {"pretty", "html:target/Register1.html"}, //reporting purpose
 			monochrome=false,  //console output color
